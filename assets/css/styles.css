@@ -1,6 +1,31 @@
 /* Custom styles */
 
+/* Imported font */
+.fredericka-the-great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Header */
+.bg-primary {
+    background-color: rgb(128, 0, 128) !important;
+}
+
 /* Navbar */
-.navbar {
+.bg-body-tertiary {
     background-color: aliceblue !important;
 }
+
+.navbar {
+    --bs-navbar-color: indigo;   
+    --bs-navbar-hover-color: #BC13FE;
+    --bs-navbar-active-color: indigo ;
+}
+
+.nav-link.active::after {
+    content: '\1F43E';
+}
+
+
+
