@@ -27,6 +27,12 @@
     content: '\1F43E';
 }
 
+.dropdown-item.active::after {
+    content: '\1F43E';
+}
+
+
+
 /* Card */
 .text-bg-primary {
     background-color: aliceblue !important;
