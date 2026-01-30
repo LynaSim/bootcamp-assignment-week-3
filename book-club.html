@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
+
 <body>
     <!-- Header -->
     <header class="container-fluid text-center text-white bg-primary py-1">
         <div class="row">
-            <div class="col-md-12 fredericka-the-great-regular">
+            <div class="col-12 fredericka-the-great-regular">
                 <h1>Cats.Coffee.Cakes - Cat Café</h1>
             </div>
         </div>
@@ -23,7 +25,7 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
-        <div class="container-fluid">
+        <div class="container-sm">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/ccc-logo.png" alt="Cat Café logo" height="30">
             </a>
@@ -38,7 +40,7 @@
                         <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./menu.html">Sips & Nibbles</a>
+                        <a class="nav-link" href="./menu.html">Menu</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -46,7 +48,8 @@
                             Community
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item active" aria-current="page" href="./book-club.html">Book Club</a></li>
+                            <li><a class="dropdown-item active" aria-current="page" href="./book-club.html">Book
+                                    Club</a></li>
                             <li><a class="dropdown-item" href="./language-cafe.html">Language Café</a></li>
                         </ul>
                     </li>
@@ -69,9 +72,55 @@
         </div>
     </nav>
 
+    <!-- Main -->
+
+    <main class="container-md mx-auto border">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-5 col-sm-6 mt-4">
+                <div class="card text-bg-primary">
+                    <img src="./assets/img/the-tapes.jpg" class="card-img-top"
+                        alt="The Tapes by Kerry Wilkinson book cover">
+                    <div class="card-body">
+                        <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom text-center">Tuesday</h5>
+                        <p class="card-text">
+                        <ul class="list-unstyled text-center">
+                            <li>Time: <strong>2-4pm</strong></li>
+                            <li>Title: <strong>The Tapes</strong></li>
+                            <li>Author: <strong>Kerry Wilkinson</strong></li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-6 mt-4">
+                <div class="card text-bg-primary d-flex justify-content-around">
+                    <div>
+                        <img src="./assets/img/magpie-murders.jpg" class="card-img-top"
+                            alt="Magpie Murders By Anthony Horrowitz book cover">
+
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom text-center">Thursday</h5>
+                        <p class="card-text">
+                        <ul class="list-unstyled text-center">
+                            <li>Time: <strong>6-8pm</strong></li>
+                            <li>Title: <strong>Magpie Murders</strong></li>
+                            <li>Author: <strong>Anthony Horrowitz</strong></li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous">
-    </script>    
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
