@@ -1,178 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Home - Cats Coffee Cakes - Cat Café</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Home - Cats Coffee Cakes - Cat Café</title>
+  <!-- jQuery and jQuery UI CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 <body>
 
-<!-- Header -->
-
-<header class="container-fluid text-center text-white bg-primary py-1">
-  <div class="row">
-    <div class="col-md-12 fredericka-the-great-regular">
-      <h1>Cats.Coffee.Cakes - Cat Café</h1>
+  <!-- Header -->
+  <header class="container-fluid text-center text-white bg-primary py-1">
+    <div class="row">
+      <div class="col-md-12 fredericka-the-great-regular">
+        <h1>Cats.Coffee.Cakes - Cat Café</h1>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
-  <div class="container">
-    <a class="navbar-brand" href="./index.html">
-      <img src="./assets/img/ccc-logo.png" alt="Cat Café logo" height="30">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-        <li class="nav-item text-primary">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./menu.html">Menu</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Community
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="./book-club.html">Book Club</a></li>
-            <li><a class="dropdown-item" href="./language-cafe.html">Language Café</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./cats.html">The Cats</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            More
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="./find-us.html">Find us</a></li>
-            <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
-            <li><a class="dropdown-item" href="./about.html">About</a></li>
-          </ul>
-        </li>     
-      </ul>      
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./assets/img/ccc-logo.png" alt="Cat Café logo" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+          <li class="nav-item text-primary">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./menu.html">Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./book-club.html">Book Club</a></li>
+              <li><a class="dropdown-item" href="./language-cafe.html">Language Café</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cats.html">The Cats</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./find-us.html">Find us</a></li>
+              <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="./about.html">About</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Main -->
-
-<main class="container-md">
-  <div class="row">
-    <div class="col-md-12 px-0">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/img/cafe-16-9.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+  <!-- Main -->
+  <main class="container-md">
+    <div class="row">
+      <div class="col-md-12 px-0">
+        <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/carousel-1.jpg" class="d-block w-100" alt="Coffee shop counter">              
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/carousel-2.jpg" class="d-block w-100" alt="Cup of coffee">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/carousel-3.jpg" class="d-block w-100" alt="Coffee shop counter">
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/img/garden-16-9.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="./assets/img/ice-cream-16-9.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </div>
-  </div>
 
-  <div class="row gx-4">
-    <div class="col-lg-4 col-sm-6 mt-4">
-      <div class="card text-bg-primary">
-        <img src="./assets/img/index-book-club-card16-9.jpg" class="card-img-top" alt="books and coffee">
-        <div class="card-body">
-          <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">Book Club</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-          <a href="./book-club.html" class="btn btn-primary">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mt-4">
-      <div class="card text-bg-primary">
-        <img src="./assets/img/index-language-card16-9.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title  fredericka-the-great-regular fs-2 border-bottom">Language Café</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-          <a href="./language-cafe.html" class="btn btn-primary">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-8 mx-auto mt-4">
-      <div class="card text-bg-primary">
-        <img src="./assets/img/index-cats-card16-9.jpg" class="card-img-top" alt="cartoony cats in a cafe">
-        <div class="card-body">
-          <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">The Cats</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-          <a href="./cats.html" class="btn btn-primary">More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-6 mt-4">
-      <div class="card text-bg-primary">
-        <img src="./assets/img/index-menu-card16-9.jpg" class="card-img-top" alt="slice of cake">
-        <div class="card-body">
-          <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">Sips & Nibbles</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-          <a href="./menu.html" class="btn btn-primary">More</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 mt-4">
-      <div class="card text-bg-primary">
-          <img src="./assets/img/cafe-terrace.jpg" class="card-img-top" alt="...">
+    <div class="row gx-4">
+      <div class="col-lg-4 col-sm-6 mt-4">
+        <div class="card text-bg-primary h-100">
+          <img src="./assets/img/index-book-club-card16-9.jpg" class="card-img-top" alt="books and coffee">
           <div class="card-body">
-            <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">Find Us</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="./find-us.html" class="btn btn-primary">More</a>
+            <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">Book Club</h5>
+            <p class="card-text">Enjoy reading and having a natter? Come and join us. There are 2 sessions a week.</p>
+            <a href="./book-club.html" class="btn btn-primary">More</a>
           </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 mt-4">
+        <div class="card text-bg-primary h-100">
+          <img src="./assets/img/index-language-card16-9.jpg" class="card-img-top"
+            alt="Flags of the world on a board game">
+          <div class="card-body">
+            <h5 class="card-title  fredericka-the-great-regular fs-2 border-bottom">Language Café</h5>
+            <p class="card-text">A relaxed chatty session. No particular structure, just a shared desire for learning
+              and practicing languages.</p>
+            <a href="./language-cafe.html" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-8 mx-auto mt-4">
+        <div class="card text-bg-primary h-100">
+          <img src="./assets/img/index-cats-card16-9.jpg" class="card-img-top" alt="cartoony cats in a cafe">
+          <div class="card-body">
+            <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">The Cats</h5>
+            <div class="bg-primary text-white fs-4" id="dialog" title="Answer">
+              <p>Purr-ple</p>
+            </div>
+            <div class="d-flex justify-content-between">
+              <p class="card-text">What is a cat's favourite colour?</p><button id="opener"
+                class="btn btn-primary ">answer</button></p>
+            </div>
+            <p>Our house have 3 masters.</p>
+            <a href="./cats.html" class="btn btn-primary">Meet our Cats</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</main>
 
-
-<!-- Footer -->
-<footer class="container-fluid text-center text-white bg-primary py-4 mt-4">
-  <div class="row">
-    <div class="col-md-12"><span>© 2026 CCC Cat Café</span>
+    <div class="row">
+      <div class="col-sm-6 mt-4">
+        <div class="card text-bg-primary h-100">
+          <img src="./assets/img/index-menu-card16-9.jpg" class="card-img-top" alt="slice of cake">
+          <div class="card-body">
+            <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">Sips & Nibbles</h5>
+            <p class="card-text">Coffee, tea, sweets and savouries. Even ice-cream!</p>
+            <a href="./menu.html" class="btn btn-primary">Menu</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 mt-4">
+        <div class="card text-bg-primary h-100">
+          <img src="./assets/img/index-find-us16-9.jpg" class="card-img-top" alt="slice of cake">
+          <div class="card-body border=bottom">
+            <h5 class="card-title fredericka-the-great-regular fs-2 border-bottom">Find Us</h5>
+            <p class="card-text">We are easily accessible by public transport. Click below to see a map.</p>
+            <a href="./find-us.html" class="btn btn-primary">Map</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</footer>
+  </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <!-- Footer -->
+  <footer class="container-fluid text-center text-white bg-primary py-4 mt-4">
+    <div class="row">
+      <div class="col-md-12"><span>© 2026 CCC Cat Café</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous">
+  </script>
+
+  <!-- jQuery Scripts -->
+  <script>
+    $(function () {
+      $("#dialog").dialog({
+        autoOpen: false,
+        show: {
+          effect: "blind",
+          duration: 1000
+        },
+        hide: {
+          effect: "explode",
+          duration: 1000
+        }
+      });
+
+      $("#opener").on("click", function () {
+        $("#dialog").dialog("open");
+      });
+    });
+  </script>
 </body>
 </html>
